@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Tutorial</title>
+    <!-- <script src="try2.js" defer></script> -->
+</head>
+<body>
+    
+    <div id="container">
+        
+        <h1 id="heading">Team405</h1>
+
+        <div class="aboutContainerClass" id="aboutContainer">
+            <p id="about">We are a team which is dedicated to let the tech things be easy and understoodable  </p>
+        </div>
+
+        <div class="aboutContainerClass">
+            <p>We teach Web development, Machine learning, Android development etc...</p>
+        </div>
+     
+    </div>
+    
+</body>
+<script>
+
+// Answers of the Problem statements:
+
+
+
+// ************** Problems statement: 1 ****************************
+
+
+    // let a = prompt("enter a number");
+
+// function changeType(a)
+// {
+//     console.log("typeof: ",typeof a);
+//     console.log("value: ",a);
+
+//     a = new String(a);
+
+//     console.log("typeof: ",typeof a);
+//     console.log("value: ",a);
+
+//   a = BigInt(a);
+
+//   console.log("typeof: ",typeof a);
+//   console.log("value: ",a);  
+
+
+// }
+
+// changeType(a);
+
+
+
+// ************** Problems statement: 2 ****************************
+
+
+
+// let username = prompt("enter the username");
+
+// let password = prompt("set user password");
+
+
+
+// if(confirm("do you want to sign in?"))
+// {
+//   let userTrial =prompt("enter the password");
+//   let chance = 5;
+
+//   while( userTrial != password && chance > 0)
+//     {
+//      alert(`You have entered wrong password, try again only ${chance} chances remains`);
+
+//       userTrial = prompt("enter the password");
+
+//       chance = chance - 1;
+//     }
+
+//   if(userTrial != password)
+//   {
+//     alert("You have entered wrong password for 5 times, you are not allowed to try more");
+//   } else {
+//     alert(`Welcome ${username} you have successfully signed in`);
+//   }
+// }
+
+
+
+// ************** Problems statement: 3 ****************************
+
+
+
+// let providedObj = {
+//     name: "Rakesh",
+//     age: 25 ,
+//     city: "Haryana",
+//     country: "India",
+//     job: "Software Engineer"
+// }
+
+//  function delProp(){
+//     let propName = prompt('Enter the property name');
+
+//     delete providedObj[propName];
+//     console.log("Our new modified object: ",providedObj);
+//  }  
+
+
+//  function createProp(){
+    
+//     let propName = prompt('Enter the property name');
+//     let value = prompt('Enter the value');
+
+//     providedObj[propName]=value;
+//     console.log("Our new modified object: ",providedObj);
+//  }
+
+
+// function searchProp(){
+
+//     let propName = prompt('Enter the property name');
+
+//     if(providedObj[propName] == undefined){
+//         console.log(propName + " no exist in the given object");
+//         return;
+//     }
+
+//     console.log(providedObj[propName]);
+
+// }
+
+
+// function updateProp(){
+
+//     let propName = prompt('Enter the property name');
+//     let value = prompt('Enter the value');
+
+//     if(providedObj[propName] == undefined){
+//         console.log(propName + " no exist in the given object");
+//         return;
+//     }
+
+//     providedObj[propName]=value;
+
+//     console.log("Our new modified object: ",providedObj);
+// }
+
+// let flag = true;
+
+// while(flag)
+// {
+//     let a = prompt('Enter your choice:\n  1. Update a prop,\n 2. Delete a prop,\n 3. Search a Prop,\n 4. Create a new prop,\n Type anything except the given number to exit');
+
+//     switch (a) {
+//         case '1':
+//             updateProp();
+//             break;
+
+//         case '2':
+//             delProp();
+//             break;
+
+//         case '3':
+//             searchProp();
+//             break;
+
+//         case '4':
+//             createProp();
+//             break;
+        
+    
+//         default:
+//             flag = false;
+//     }
+// }
+
+
+
+
+// ************** Problems statement: 4 ****************************
+
+
+// let arr = [1,2,3,4,5,6,7,8];
+
+// function one(arr){
+
+//     let val = arr.reduce((accumulator,element)=>{
+        
+//         if(element % 2 == 0)
+//         {
+//             return  accumulator*element;
+//         } else {
+//             return accumulator/element;
+//         }
+//     })
+
+
+//     return val;
+
+// }
+
+
+// function two(arr){
+//     let newarr = arr.map((element , index)=>{
+
+//         if(index % 2 == 0)
+//         {
+//             return element-3;
+//         } else {
+//             return element+3;
+//         }
+
+//         return newarr;
+
+//     })
+
+//     return newarr;
+
+
+// }
+
+
+// ************** Problems statement: 5 ****************************
+
+// try it using "delete"
+
+// try it using "splice"
+
+// try it using juggad
+
+
+// **************** Problem Statement: 6 ****************************
+
+
+//1.  (\@+)|(.ac.in$)
+
+//2. /(^https?\:\/\/.+google\.com)/g 
+
+//3. /^\d{2}\/\d{2}\/\d{4}$/ 
+
+//4.  /\<[^>]+\>/g
+
+
+
+</script>
+
+</html>
