@@ -1269,7 +1269,7 @@ var arr4 = new Array(12,21,10,9);
 
 // http://dmitrysoshnikov.com/
 
-// # Github notes link: 
+// # Github notes link: https://github.com/Sahityaaryan/JavaScriptStudyJams
 
 
 
