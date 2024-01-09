@@ -1270,3 +1270,63 @@ var arr4 = new Array(12,21,10,9);
 // http://dmitrysoshnikov.com/
 
 // # Github notes link: 
+
+
+
+//# settings.json for "Better Comments"
+
+// {
+//     "tag": "%",
+//     "color": "#4DB6AC",
+//     "strikethrough": false,
+//     "underline": false,
+//     "backgroundColor": "transparent",
+//     "bold": false,
+//     "italic": false
+// },
+
+// {
+//     "tag": "!",
+//     "color": "#FF2D00",
+//     "strikethrough": false,
+//     "underline": false,
+//     "backgroundColor": "transparent",
+//     "bold": false,
+//     "italic": false
+// },
+// {
+//     "tag": "?",
+//     "color": "#3498DB",
+//     "strikethrough": false,
+//     "underline": false,
+//     "backgroundColor": "transparent",
+//     "bold": false,
+//     "italic": false
+// },
+// {
+//     "tag": "~",
+//     "color": "#474747",
+//     "strikethrough": true,
+//     "underline": false,
+//     "backgroundColor": "transparent",
+//     "bold": false,
+//     "italic": false
+// },
+// {
+//     "tag": "#",
+//     "color": "#FF5722",
+//     "strikethrough": false,
+//     "underline": false,
+//     "backgroundColor": "transparent",
+//     "bold": false,
+//     "italic": false
+// },
+// {
+//     "tag": "*",
+//     "color": "#FDE83D",
+//     "strikethrough": false,
+//     "underline": false,
+//     "backgroundColor": "transparent",
+//     "bold": true,
+//     "italic": false
+// }
